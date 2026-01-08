@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OS-Linux-basic-02", "OS-Linux-basic-02", "{FB3323FC-5CE3-4B93-9808-970CA9578748}"
+	ProjectSection(SolutionItems) = preProject
+		OS-Linux-basic-02\linux-file-system.md = OS-Linux-basic-02\linux-file-system.md
+		OS-Linux-basic-02\cli.md = OS-Linux-basic-02\cli.md
+		OS-Linux-basic-02\cli-basic-part2.md = OS-Linux-basic-02\cli-basic-part2.md
+		OS-Linux-basic-02\package-manager-07.md = OS-Linux-basic-02\package-manager-07.md
+		OS-Linux-basic-02\vim-editor-08.md = OS-Linux-basic-02\vim-editor-08.md
+		OS-Linux-basic-02\linux-accont-groups-part1-09.md = OS-Linux-basic-02\linux-accont-groups-part1-09.md
+		OS-Linux-basic-02\file-onvership-permision-part2-10.md = OS-Linux-basic-02\file-onvership-permision-part2-10.md
+		OS-Linux-basic-02\linux-basic-commands-pipes-redirects-part3-11.md = OS-Linux-basic-02\linux-basic-commands-pipes-redirects-part3-11.md
+		OS-Linux-basic-02\shell-scriptiong-part1-12.md = OS-Linux-basic-02\shell-scriptiong-part1-12.md
+		OS-Linux-basic-02\shell-scriptiong-part2-13.md = OS-Linux-basic-02\shell-scriptiong-part2-13.md
+		OS-Linux-basic-02\setup.sh = OS-Linux-basic-02\setup.sh
+		OS-Linux-basic-02\setup2.sh = OS-Linux-basic-02\setup2.sh
+		OS-Linux-basic-02\setup3.sh = OS-Linux-basic-02\setup3.sh
+		OS-Linux-basic-02\setup-loop.sh = OS-Linux-basic-02\setup-loop.sh
+		OS-Linux-basic-02\shell-scripting-part3-functions.md = OS-Linux-basic-02\shell-scripting-part3-functions.md
+		OS-Linux-basic-02\function.sh = OS-Linux-basic-02\function.sh
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+EndGlobal
