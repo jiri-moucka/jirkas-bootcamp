@@ -18,11 +18,29 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OS-Linux-basic-02", "OS-Lin
 		OS-Linux-basic-02\setup-loop.sh = OS-Linux-basic-02\setup-loop.sh
 		OS-Linux-basic-02\shell-scripting-part3-functions.md = OS-Linux-basic-02\shell-scripting-part3-functions.md
 		OS-Linux-basic-02\function.sh = OS-Linux-basic-02\function.sh
+		OS-Linux-basic-02\environment-variable-15.md = OS-Linux-basic-02\environment-variable-15.md
+		OS-Linux-basic-02\simple-program.sh = OS-Linux-basic-02\simple-program.sh
+		OS-Linux-basic-02\networking-16.md = OS-Linux-basic-02\networking-16.md
+		OS-Linux-basic-02\img.png = OS-Linux-basic-02\img.png
+		OS-Linux-basic-02\img_1.png = OS-Linux-basic-02\img_1.png
+		OS-Linux-basic-02\img_2.png = OS-Linux-basic-02\img_2.png
+		OS-Linux-basic-02\ssh-secure-shell.md = OS-Linux-basic-02\ssh-secure-shell.md
+		OS-Linux-basic-02\remote-test.sh = OS-Linux-basic-02\remote-test.sh
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "img", "img", "{6E8E9F70-45C0-4FBC-A656-5A3BCA2A3E94}"
+	ProjectSection(SolutionItems) = preProject
+		OS-Linux-basic-02\img\cat-to-less.png = OS-Linux-basic-02\img\cat-to-less.png
+		OS-Linux-basic-02\img\file-permision.png = OS-Linux-basic-02\img\file-permision.png
+		OS-Linux-basic-02\img\variables-os.png = OS-Linux-basic-02\img\variables-os.png
 	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6E8E9F70-45C0-4FBC-A656-5A3BCA2A3E94} = {FB3323FC-5CE3-4B93-9808-970CA9578748}
 	EndGlobalSection
 EndGlobal
