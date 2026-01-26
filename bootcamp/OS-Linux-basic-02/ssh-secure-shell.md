@@ -26,7 +26,7 @@ ssh-keygen -t rsa # -t rsa: type of cryptographic algorithm
 ```
  - passphrase: usually not need it. can be empty.
  - id_rsa.pub - public key
- - id_rsa - private key
+ - id_rsa - private key - always on the locla mychine
 
 ### authorized_keys
 copy the content of id_rsa.pub to the authorized_keys file on the server
