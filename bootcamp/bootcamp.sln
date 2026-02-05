@@ -45,6 +45,35 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Git-03", "Git-03", "{F34DE3
 		Git-03\git_init_from_local-05.md = Git-03\git_init_from_local-05.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Databases", "Databases", "{D0E681E4-1B94-484B-9910-A25D6AF71258}"
+	ProjectSection(SolutionItems) = preProject
+		Databases\03.Bonus - Databases Handout.pdf = Databases\03.Bonus - Databases Handout.pdf
+		Databases\Databases.md = Databases\Databases.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Package-manager-04", "Package-manager-04", "{559F10D6-4E85-4C06-904B-1381D4CA38BA}"
+	ProjectSection(SolutionItems) = preProject
+		Package-manager-04\build_tool.md = Package-manager-04\build_tool.md
+		Package-manager-04\04 - Build Tools Checklist.pdf = Package-manager-04\04 - Build Tools Checklist.pdf
+		Package-manager-04\04 - Build Tools Handout.pdf = Package-manager-04\04 - Build Tools Handout.pdf
+		Package-manager-04\img_1.png = Package-manager-04\img_1.png
+		Package-manager-04\img.png = Package-manager-04\img.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cloud-infra-05", "Cloud-infra-05", "{C62F8A30-D000-47F2-B952-E49F34BAD417}"
+	ProjectSection(SolutionItems) = preProject
+		Cloud-infra-05\2 - Study Guide DevOps Fundamentals.pdf = Cloud-infra-05\2 - Study Guide DevOps Fundamentals.pdf
+		Cloud-infra-05\05 - Cloud & IaaS Basics Checklist.pdf = Cloud-infra-05\05 - Cloud & IaaS Basics Checklist.pdf
+		Cloud-infra-05\intro.md = Cloud-infra-05\intro.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Artifact-repo-manager-nexus-06", "Artifact-repo-manager-nexus-06", "{56FABB27-8ECD-412E-9054-F2B6263CF68B}"
+	ProjectSection(SolutionItems) = preProject
+		Artifact-repo-manager-nexus-06\06 - Nexus Handout.pdf = Artifact-repo-manager-nexus-06\06 - Nexus Handout.pdf
+		Artifact-repo-manager-nexus-06\06 - Nexus Checklist.pdf = Artifact-repo-manager-nexus-06\06 - Nexus Checklist.pdf
+		Artifact-repo-manager-nexus-06\intro.md = Artifact-repo-manager-nexus-06\intro.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

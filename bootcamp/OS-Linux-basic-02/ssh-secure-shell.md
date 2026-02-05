@@ -3,9 +3,9 @@
 # authentication
 1 - username and password
 2 - SSH  key pair
-  - private and poublic key
+  - private and public key
     - private is stored with my pc
-    - poubklic key - can be shared - with the serveer - allow the connection
+    - poultice key - can be shared – with the server – allow the connection
 
 ## SSH for services
 CI server ----> Remote server
@@ -24,9 +24,9 @@ in  Firewall we allow access on port 22.
 ```bash
 ssh-keygen -t rsa # -t rsa: type of cryptographic algorithm 
 ```
- - passphrase: usually not need it. can be empty.
- - id_rsa.pub - public key
- - id_rsa - private key - always on the locla mychine
+ - passphrase: usually do not need it. it can be empty.
+ - id_rsa.pub – public key
+ - id_rsa – private key – always on the local machine
 
 ### authorized_keys
 copy the content of id_rsa.pub to the authorized_keys file on the server
