@@ -72,6 +72,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Artifact-repo-manager-nexus
 		Artifact-repo-manager-nexus-06\06 - Nexus Handout.pdf = Artifact-repo-manager-nexus-06\06 - Nexus Handout.pdf
 		Artifact-repo-manager-nexus-06\06 - Nexus Checklist.pdf = Artifact-repo-manager-nexus-06\06 - Nexus Checklist.pdf
 		Artifact-repo-manager-nexus-06\intro.md = Artifact-repo-manager-nexus-06\intro.md
+		Artifact-repo-manager-nexus-06\img.png = Artifact-repo-manager-nexus-06\img.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Container-with-docker-07", "Container-with-docker-07", "{3CB700C1-6267-429A-864E-FECD2E801B1D}"
+	ProjectSection(SolutionItems) = preProject
+		Container-with-docker-07\07 - Docker Handout.pdf = Container-with-docker-07\07 - Docker Handout.pdf
+		Container-with-docker-07\07 - Docker Checklist.pdf = Container-with-docker-07\07 - Docker Checklist.pdf
+		Container-with-docker-07\intro.md = Container-with-docker-07\intro.md
 	EndProjectSection
 EndProject
 Global
