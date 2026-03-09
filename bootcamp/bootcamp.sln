@@ -82,6 +82,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Container-with-docker-07", 
 		Container-with-docker-07\intro.md = Container-with-docker-07\intro.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build-automation-Jenkins-08", "Build-automation-Jenkins-08", "{5CBD07DC-A44D-4646-8227-25D77F768AF9}"
+	ProjectSection(SolutionItems) = preProject
+		Build-automation-Jenkins-08\intro.md = Build-automation-Jenkins-08\intro.md
+		Build-automation-Jenkins-08\08 - Jenkins Handout.pdf = Build-automation-Jenkins-08\08 - Jenkins Handout.pdf
+		Build-automation-Jenkins-08\08 - Jenkins Checklist.pdf = Build-automation-Jenkins-08\08 - Jenkins Checklist.pdf
+		Build-automation-Jenkins-08\pipeline-job.md = Build-automation-Jenkins-08\pipeline-job.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

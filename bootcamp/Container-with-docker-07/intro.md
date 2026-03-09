@@ -157,7 +157,7 @@ in tags i am able to find the default user – in layers
 6. Excluding not needed content
     - use .dockerignore file
 7. Build vs. final stage
-    - dependency file for declaring wha tis need it for final
+    - dependency file for declaring what is need it for final
     - Multi-Stage builds
 8. Which OS will be used to start the app?
     - not need it to run as a root user → bad practice
