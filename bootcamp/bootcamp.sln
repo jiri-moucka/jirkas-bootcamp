@@ -88,6 +88,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build-automation-Jenkins-08
 		Build-automation-Jenkins-08\08 - Jenkins Handout.pdf = Build-automation-Jenkins-08\08 - Jenkins Handout.pdf
 		Build-automation-Jenkins-08\08 - Jenkins Checklist.pdf = Build-automation-Jenkins-08\08 - Jenkins Checklist.pdf
 		Build-automation-Jenkins-08\pipeline-job.md = Build-automation-Jenkins-08\pipeline-job.md
+		Build-automation-Jenkins-08\Jenkinsfile = Build-automation-Jenkins-08\Jenkinsfile
+		Build-automation-Jenkins-08\Jenkinsfile-nana = Build-automation-Jenkins-08\Jenkinsfile-nana
+		Build-automation-Jenkins-08\Jenkinsfile-example = Build-automation-Jenkins-08\Jenkinsfile-example
 	EndProjectSection
 EndProject
 Global

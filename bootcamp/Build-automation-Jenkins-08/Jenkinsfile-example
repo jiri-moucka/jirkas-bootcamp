@@ -1,0 +1,71 @@
+CODE_CHANGES = getGitChanges()
+
+pipeline {
+	agent any
+	environment {
+		NEW_VERSION	 = '1.3.0'
+		SERVER_CREDENTIALS = credentials('GitLab-nana-java-maven-app')
+	}
+	
+	tools {
+		maven "maven-3.9"
+		gradle
+		jdk
+	}
+	
+	parameters {
+		string(name: 'VERSION', defaultVAlue: '', descrition: 'version todeploy on prod')
+		choice(name: 'VERSION', choices: ['1.0.0', '1.1.0', '1.2.0'], description: '')
+		booleanParam(name: 'executeTests', defaultValue: true, description: '')
+	}
+
+	stages {
+		stage ("build") {
+			steps {
+				expression {
+					BRANCH_NAME == 'dev' || CODE_CHANGES = true
+				}
+				echo "building the app..."
+				echo "building version ${NEW_VERSION}"
+			}
+		}
+		stage ("test") {
+			when {
+				expression {
+					BRANCH_NAME == 'dev' || BRANCH_NAME == 'master'
+				}
+			}
+			when {
+				expresion {
+					params.executeTests == true
+				}
+			}
+			steps {
+				echo "testing the app..."
+			}
+		}
+		stage ("deploy") {
+			steps {
+				echo 'Deploying the app...'
+				echo "deploying with ${SERVER_CREDENTIALS}"
+				
+				withCredentials([
+				usernamePassword(credentials: 'GitLab-nana-java-maven-app', usernameVAriable: USER, passwordVariable: PWD)
+				]) {
+					sh "some shell script ${USER} ${PWD}"
+				}
+			}
+		}
+	}
+	post {
+		always {
+			// this will be executed always
+		}
+		success {
+
+		}
+		failure {
+
+		}
+	}
+}
