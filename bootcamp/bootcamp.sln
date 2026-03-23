@@ -91,6 +91,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build-automation-Jenkins-08
 		Build-automation-Jenkins-08\Jenkinsfile = Build-automation-Jenkins-08\Jenkinsfile
 		Build-automation-Jenkins-08\Jenkinsfile-nana = Build-automation-Jenkins-08\Jenkinsfile-nana
 		Build-automation-Jenkins-08\Jenkinsfile-example = Build-automation-Jenkins-08\Jenkinsfile-example
+		Build-automation-Jenkins-08\script.groovy = Build-automation-Jenkins-08\script.groovy
+		Build-automation-Jenkins-08\jenkins-shared-library.md = Build-automation-Jenkins-08\jenkins-shared-library.md
+		Build-automation-Jenkins-08\git-init.md = Build-automation-Jenkins-08\git-init.md
+		Build-automation-Jenkins-08\jenkins-pipeline.md = Build-automation-Jenkins-08\jenkins-pipeline.md
+		Build-automation-Jenkins-08\img.png = Build-automation-Jenkins-08\img.png
 	EndProjectSection
 EndProject
 Global

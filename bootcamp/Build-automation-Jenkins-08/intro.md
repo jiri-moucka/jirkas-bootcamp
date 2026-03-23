@@ -24,6 +24,7 @@ jenkins@666a259d0628:/$
 cat /var/jenkins_home/secrets/initialAdminPassword
 ```
 
+username / password for login:
 user/psw: nana/nana
 url: http://167.172.103.117:8080/
 
@@ -156,6 +157,29 @@ chmod 666 /var/run/docker.sock
 stand-alone jobs – build, release, pushing to repo
 for UI setup.
 Has limitation for modern CI/CD or Infra as code.
+
+# Multibranch pipeline
+Can be used fro building all branches in repository. E.g. for running tests.
+Automatically creates a pipeline for each branch and runs it depends on the Jenkinsfile.
+
+
+# Jenkins ewrapup
+Freestyle - for single task
+Pipeline - for CI/CD
+Multibranch pipeline - automatic control ower all branches
+
+
+# Jenkins credentials
+depends on installed plugins.
+
+scopes:
+ -  system – only available on kenkins server
+   - not for jobs in jenkins
+ - global - 
+ - project scope - available only in project.
+   - only for multipipeline jobs
+   - must be create inside the project. only for multipipeline project.
+ - 
 
 
 

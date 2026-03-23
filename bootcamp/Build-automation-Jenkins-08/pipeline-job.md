@@ -40,7 +40,7 @@ credentials is a method - find a credentials in jenkins
 
 ## Jenkins file tools
 has to be install in Jenkins tool
-it will be available in all jobs
+it will be available its commands in all jobs
 ```jenkins
 tools {
 		maven "maven-3.9"
@@ -58,3 +58,5 @@ all variable define in Jenkinsfile are available in Groovy script
 
 # Input parameters
 e.g. - enable to user to which environment it should be deployed.
+
+# Full Pipeline
